@@ -44,3 +44,8 @@ near call $NFT_CONTRACT_ID new_default_meta '{"owner_id": "'$NFT_CONTRACT_ID'"}'
 '''
 near view $NFT_CONTRACT_ID nft_metadata
 '''
+
+## Redeploying the contract
+'''
+yarn build && near deploy --wasmFile out/main.wasm --accountId $NFT_CONTRACT_ID
+'''
