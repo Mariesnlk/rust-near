@@ -1,0 +1,12 @@
+/Users/mariesnlk/Documents/GitHub/rust-near/minting/nft-contract/target/debug/deps/base64-bd65a3fc38700438.rmeta: /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/lib.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/chunked_encoder.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/display.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/tables.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/write/mod.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/write/encoder.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/encode.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/decode.rs
+
+/Users/mariesnlk/Documents/GitHub/rust-near/minting/nft-contract/target/debug/deps/base64-bd65a3fc38700438.d: /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/lib.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/chunked_encoder.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/display.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/tables.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/write/mod.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/write/encoder.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/encode.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/decode.rs
+
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/lib.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/chunked_encoder.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/display.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/tables.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/write/mod.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/write/encoder.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/encode.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.11.0/src/decode.rs:

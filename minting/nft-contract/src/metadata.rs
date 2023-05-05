@@ -1,4 +1,5 @@
 use crate::*;
+use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
 pub type TokenId = String;
 //defines the payout type we'll be returning as a part of the royalty standards.
 #[derive(Serialize, Deserialize)]
@@ -38,7 +39,7 @@ pub struct TokenMetadata {
 
 #[derive(BorshDeserialize, BorshSerialize)]
 pub struct Token {
-    pub owner_id: AccountId;
+    pub owner_id: AccountId,
 }
 
 //The Json token is what will be returned from view calls. 
