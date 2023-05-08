@@ -1,12 +1,12 @@
 use crate::*;
-use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
+use near_sdk::borsh::{ self, BorshDeserialize, BorshSerialize };
 pub type TokenId = String;
 //defines the payout type we'll be returning as a part of the royalty standards.
 #[derive(Serialize, Deserialize)]
 #[serde(crate = "near_sdk::serde")]
 pub struct Payout {
     pub payout: HashMap<AccountId, U128>,
-} 
+}
 
 #[derive(BorshDeserialize, BorshSerialize, Serialize, Deserialize, Clone)]
 #[serde(crate = "near_sdk::serde")]
@@ -14,7 +14,7 @@ pub struct NFTContractMetadata {
     pub spec: String,
     pub name: String,
     pub symbol: String,
-    pub icon: Option<String>, // string|null 
+    pub icon: Option<String>, // string|null
     pub base_uri: Option<String>,
     pub reference: Option<String>,
     pub reference_hash: Option<Base64VecU8>,
@@ -42,9 +42,10 @@ pub struct Token {
     pub owner_id: AccountId,
     pub approved_account_ids: HashMap<AccountId, u64>,
     pub next_approval_id: u64,
+    pub royalty: HashMap<AccountId, u32>,
 }
 
-//The Json token is what will be returned from view calls. 
+//The Json token is what will be returned from view calls.
 #[derive(Serialize, Deserialize)]
 #[serde(crate = "near_sdk::serde")]
 pub struct JsonToken {
@@ -52,6 +53,7 @@ pub struct JsonToken {
     pub owner_id: AccountId,
     pub metadata: TokenMetadata,
     pub approved_account_ids: HashMap<AccountId, u64>,
+    pub royalty: HashMap<AccountId, u32>,
 }
 
 // interface like in Solidity
@@ -64,6 +66,6 @@ pub trait NonFungibleTokenMetadata {
 #[near_bindgen]
 impl NonFungibleTokenMetadata for Contract {
     fn nft_metadata(&self) -> NFTContractMetadata {
-       self.metadata.get().unwrap()
+        self.metadata.get().unwrap()
     }
 }
