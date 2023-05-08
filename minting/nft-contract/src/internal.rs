@@ -70,7 +70,7 @@ pub(crate) fn refund_deposit(storage_used: u64) {
 
 //convert the royalty percentage and amount to pay into a payout (U128)
 pub(crate) fn royalty_to_payout(royalty_percentage: u32, amount_to_pay: Balance) -> U128 {
-    U128(royalty_percentage as u128 * amount_to_pay / 10_000u128)
+    U128(((royalty_percentage as u128) * amount_to_pay) / 10_000u128)
 }
 
 impl Contract {
@@ -104,7 +104,7 @@ impl Contract {
         receiver_id: &AccountId,
         token_id: &TokenId,
         approval_id: Option<u64>,
-        memo: Option<String>
+        memo: Option<String>,
     ) -> Token {
         // get token object
         let token = self.tokens_by_id.get(token_id).expect("No token");
@@ -160,9 +160,33 @@ impl Contract {
         //insert that new token into the tokens_by_id, replacing the old entry
         self.tokens_by_id.insert(token_id, &new_token);
 
-        if let Some(memo) = memo {
+        if let Some(memo) = memo.as_ref() {
             env::log_str(&format!("Memo: {}", memo).to_string());
         }
+
+        let mut authorized_id = None;
+
+        //if the approval ID was provided, set the authorized ID equal to the sender
+        if approval_id.is_some() {
+            authorized_id = Some(sender_id.to_string());
+        }
+
+        let nft_transfer_log: EventLog = EventLog {
+            standard: NFT_STANDARD_NAME.to_string(),
+            version: NFT_METADATA_SPEC.to_string(),
+            event: EventLogVariant::NftTransfer(
+                vec![NftTransferLog {
+                    authorized_id,
+                    old_owner_id: token.owner_id.to_string(),
+                    new_owner_id: receiver_id.to_string(),
+                    token_ids: vec![token_id.to_string()],
+                    memo,
+                }]
+            ),
+        };
+
+        // Log the serialized json.
+        env::log_str(&nft_transfer_log.to_string());
 
         token
     }
