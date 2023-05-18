@@ -1,0 +1,11 @@
+/Users/mariesnlk/Documents/GitHub/rust-near/fungible-token/integration-tests/target/debug/deps/futures_lite-a978c6deacd9ddad.rmeta: /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/lib.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/future.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/prelude.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/stream.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/io.rs
+
+/Users/mariesnlk/Documents/GitHub/rust-near/fungible-token/integration-tests/target/debug/deps/libfutures_lite-a978c6deacd9ddad.rlib: /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/lib.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/future.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/prelude.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/stream.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/io.rs
+
+/Users/mariesnlk/Documents/GitHub/rust-near/fungible-token/integration-tests/target/debug/deps/futures_lite-a978c6deacd9ddad.d: /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/lib.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/future.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/prelude.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/stream.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/io.rs
+
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/lib.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/future.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/prelude.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/stream.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.13.0/src/io.rs:

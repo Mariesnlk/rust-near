@@ -1,0 +1,11 @@
+/Users/mariesnlk/Documents/GitHub/rust-near/fungible-token/integration-tests/target/debug/deps/arrayvec-70d595e39d07782b.rmeta: /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/lib.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/arrayvec_impl.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/arrayvec.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/array_string.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/char.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/errors.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/utils.rs
+
+/Users/mariesnlk/Documents/GitHub/rust-near/fungible-token/integration-tests/target/debug/deps/arrayvec-70d595e39d07782b.d: /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/lib.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/arrayvec_impl.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/arrayvec.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/array_string.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/char.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/errors.rs /Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/utils.rs
+
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/lib.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/arrayvec_impl.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/arrayvec.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/array_string.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/char.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/errors.rs:
+/Users/mariesnlk/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.7.2/src/utils.rs:
